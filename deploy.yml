@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: bloodbank-container
-        image: shaikmustafa/mybloodbank:app
+        image: raviteja3929/bloodapp:appimage
         ports:
         - containerPort: 80
         envFrom:
